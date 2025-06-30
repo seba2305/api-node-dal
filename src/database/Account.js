@@ -1,8 +1,6 @@
 const DB = require("./db.json");
 const { saveToDatabase } = require("./utils");
 
-//ToDo: implementar exceptions en caso que no exista la cuenta
-
 const getAllAccounts = () => {
   try {
   return DB.accounts;

@@ -1,4 +1,5 @@
 node_modules
+/src/database/first_db.json
 coverage
 package-lock.json
 dist
