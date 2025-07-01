@@ -10,9 +10,9 @@ const getAllAccounts = () => {
   }
 };
 
-const getOneAccount = () => {
+const getOneAccount = (accountId) => {
   try {
-    const account = Account.getOneAccount();
+    const account = Account.getOneAccount(accountId);
     return account;
   } catch (error) {
     throw error;
